@@ -43,6 +43,7 @@ html {
     scroll-behavior: smooth;
 }
 
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
@@ -76,6 +77,9 @@ section {
     background: var(--gradient-primary);
     margin: 20px auto 0;
     border-radius: 2px;
+}
+.hidden-feature {
+    display: none;
 }
 
 /* ===========================
