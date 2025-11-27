@@ -11,7 +11,7 @@
     },
     {
         "id": 1,
-        "title": "E-Commerce Website",
+        "title": "E-Commerce Website with user authentication, product catalog, and payment integration",
         "description": "Full-stack web application with user authentication, product catalog, and payment integration",
         "technologies": [""],
         "image": "images/ecommerce-project.jpg",
@@ -21,7 +21,7 @@
     },
     {
         "id": 2,
-        "title": "Task Management App",
+        "title": "Task Management App with drag-and-drop functionality and team collaboration",
         "description": "Mobile-first task management application with drag-and-drop functionality and team collaboration",
         "technologies": [""],
         "image": "images/task-app.jpg",
@@ -31,12 +31,52 @@
     },
     {
         "id": 3,
-        "title": "Banking App",
+        "title": "Banking App and Website",
         "description": "A secure banking application and website for managing accounts, transactions.",
         "technologies": [""],
         "image": "images/banking-app.jpg",
         "githubUrl": "https://github.com/username/banking-app",
         "liveUrl": "https://banking-app-demo.com",
         "category": "Web + Mobile Development"
+    },
+    {
+        "id": 0,
+        "title": "Video sharing platform with live streaming",
+        "description": "",
+        "technologies": [""],
+        "image": "",
+        "githubUrl": "",
+        "liveUrl": "",
+        "category": ""
+    },
+    {
+        "id": 0,
+        "title": "spotify copy with music download",
+        "description": "",
+        "technologies": [""],
+        "image": "",
+        "githubUrl": "",
+        "liveUrl": "",
+        "category": ""
+    },
+    {
+        "id": 0,
+        "title": "food delivery app with google maps integration",
+        "description": "",
+        "technologies": [""],
+        "image": "",
+        "githubUrl": "",
+        "liveUrl": "",
+        "category": ""
+    },
+    {
+        "id": 0,
+        "title": "social media site with chat client",
+        "description": "",
+        "technologies": [""],
+        "image": "",
+        "githubUrl": "",
+        "liveUrl": "",
+        "category": ""
     }
 ]
