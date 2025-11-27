@@ -1,9 +1,19 @@
 [
     {
+        "id": 0,
+        "title": "",
+        "description": "",
+        "technologies": [""],
+        "image": "",
+        "githubUrl": "",
+        "liveUrl": "",
+        "category": ""
+    },
+    {
         "id": 1,
         "title": "E-Commerce Website",
         "description": "Full-stack web application with user authentication, product catalog, and payment integration",
-        "technologies": ["React", "Node.js", "MongoDB", "Stripe"],
+        "technologies": [""],
         "image": "images/ecommerce-project.jpg",
         "githubUrl": "https://github.com/username/ecommerce-site",
         "liveUrl": "https://ecommerce-demo.com",
@@ -13,10 +23,20 @@
         "id": 2,
         "title": "Task Management App",
         "description": "Mobile-first task management application with drag-and-drop functionality and team collaboration",
-        "technologies": ["Vue.js", "Firebase", "CSS3", "JavaScript"],
+        "technologies": [""],
         "image": "images/task-app.jpg",
         "githubUrl": "https://github.com/username/task-manager",
         "liveUrl": "https://task-manager-demo.com",
         "category": "Mobile Development"
+    },
+    {
+        "id": 3,
+        "title": "Banking App",
+        "description": "A secure banking application and website for managing accounts, transactions.",
+        "technologies": [""],
+        "image": "images/banking-app.jpg",
+        "githubUrl": "https://github.com/username/banking-app",
+        "liveUrl": "https://banking-app-demo.com",
+        "category": "Web + Mobile Development"
     }
 ]
