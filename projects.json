@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "title": "E-Commerce Website",
+        "description": "Full-stack web application with user authentication, product catalog, and payment integration",
+        "technologies": ["React", "Node.js", "MongoDB", "Stripe"],
+        "image": "images/ecommerce-project.jpg",
+        "githubUrl": "https://github.com/username/ecommerce-site",
+        "liveUrl": "https://ecommerce-demo.com",
+        "category": "Web Development"
+    },
+    {
+        "id": 2,
+        "title": "Task Management App",
+        "description": "Mobile-first task management application with drag-and-drop functionality and team collaboration",
+        "technologies": ["Vue.js", "Firebase", "CSS3", "JavaScript"],
+        "image": "images/task-app.jpg",
+        "githubUrl": "https://github.com/username/task-manager",
+        "liveUrl": "https://task-manager-demo.com",
+        "category": "Mobile Development"
+    }
+]
