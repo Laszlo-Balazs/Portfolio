@@ -223,10 +223,6 @@ if (typingTextElement) {
     const texts = [
         'Software Developer',
         'Full Stack Engineer',
-        'Problem Solver',
-        'Creative Coder',
-        'Tech Enthusiast',
-        'UI/UX Designer'
     ];
     let textIndex = 0;
     let charIndex = 0;

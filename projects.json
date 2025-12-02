@@ -1,82 +1,122 @@
 [
     {
-        "id": 0,
-        "title": "",
-        "description": "",
-        "technologies": [""],
-        "image": "",
-        "githubUrl": "",
-        "liveUrl": "",
-        "category": ""
-    },
-    {
         "id": 1,
-        "title": "E-Commerce Website with user authentication, product catalog, and payment integration",
+        "title": "E-Commerce Platform",
         "description": "Full-stack web application with user authentication, product catalog, and payment integration",
-        "technologies": [""],
-        "image": "images/ecommerce-project.jpg",
+        "technologies": ["React", "Node.js", "MongoDB", "Stripe"],
+        "image": "https://via.placeholder.com/400x250/667eea/ffffff?text=E-Commerce+Platform",
         "githubUrl": "https://github.com/username/ecommerce-site",
         "liveUrl": "https://ecommerce-demo.com",
         "category": "Web Development"
     },
     {
         "id": 2,
-        "title": "Task Management App with drag-and-drop functionality and team collaboration",
+        "title": "Task Management App",
         "description": "Mobile-first task management application with drag-and-drop functionality and team collaboration",
-        "technologies": [""],
-        "image": "images/task-app.jpg",
+        "technologies": ["Vue.js", "Firebase", "Tailwind"],
+        "image": "https://via.placeholder.com/400x250/f093fb/ffffff?text=Task+Management",
         "githubUrl": "https://github.com/username/task-manager",
         "liveUrl": "https://task-manager-demo.com",
         "category": "Mobile Development"
     },
     {
         "id": 3,
-        "title": "Banking App and Website",
-        "description": "A secure banking application and website for managing accounts, transactions.",
-        "technologies": [""],
-        "image": "images/banking-app.jpg",
+        "title": "Banking Application",
+        "description": "Secure banking application and website for managing accounts and transactions",
+        "technologies": ["React Native", "Express", "PostgreSQL"],
+        "image": "https://via.placeholder.com/400x250/4facfe/ffffff?text=Banking+App",
         "githubUrl": "https://github.com/username/banking-app",
         "liveUrl": "https://banking-app-demo.com",
         "category": "Web + Mobile Development"
     },
     {
-        "id": 0,
+        "id": 4,
         "title": "Video sharing platform with live streaming",
-        "description": "",
-        "technologies": [""],
-        "image": "",
-        "githubUrl": "",
-        "liveUrl": "",
-        "category": ""
+        "description": "Modern video sharing platform featuring live streaming capabilities, user channels, and real-time chat integration",
+        "technologies": ["React", "Node.js", "WebRTC", "Socket.io", "AWS S3"],
+        "image": "https://via.placeholder.com/400x250/ff6b6b/ffffff?text=Video+Platform",
+        "githubUrl": "https://github.com/username/video-streaming-platform",
+        "liveUrl": "https://video-stream-demo.com",
+        "category": "Web Development"
     },
     {
-        "id": 0,
+        "id": 5,
         "title": "spotify copy with music download",
-        "description": "",
-        "technologies": [""],
-        "image": "",
-        "githubUrl": "",
-        "liveUrl": "",
-        "category": ""
+        "description": "Music streaming application with offline download functionality, playlist management, and social sharing features",
+        "technologies": ["React Native", "Node.js", "MongoDB", "FFmpeg"],
+        "image": "https://via.placeholder.com/400x250/1db954/ffffff?text=Music+Streaming",
+        "githubUrl": "https://github.com/username/music-streaming-app",
+        "liveUrl": "https://music-player-demo.com",
+        "category": "Mobile Development"
     },
     {
-        "id": 0,
+        "id": 6,
         "title": "food delivery app with google maps integration",
-        "description": "",
-        "technologies": [""],
-        "image": "",
-        "githubUrl": "",
-        "liveUrl": "",
-        "category": ""
+        "description": "Full-featured food delivery application with real-time tracking, restaurant browsing, and integrated payment system",
+        "technologies": ["Flutter", "Firebase", "Google Maps API", "Stripe"],
+        "image": "https://via.placeholder.com/400x250/ff9500/ffffff?text=Food+Delivery",
+        "githubUrl": "https://github.com/username/food-delivery-app",
+        "liveUrl": "https://food-delivery-demo.com",
+        "category": "Mobile Development"
     },
     {
-        "id": 0,
+        "id": 7,
         "title": "social media site with chat client",
-        "description": "",
-        "technologies": [""],
-        "image": "",
-        "githubUrl": "",
-        "liveUrl": "",
-        "category": ""
+        "description": "Social networking platform with real-time messaging, post sharing, friend connections, and media uploads",
+        "technologies": ["Vue.js", "Express", "Socket.io", "PostgreSQL", "Redis"],
+        "image": "https://via.placeholder.com/400x250/3b82f6/ffffff?text=Social+Media",
+        "githubUrl": "https://github.com/username/social-media-platform",
+        "liveUrl": "https://social-demo.com",
+        "category": "Web Development"
+    },
+    {
+        "id": 8,
+        "title": "project management tool with gantt charts",
+        "description": "Comprehensive project management solution featuring Gantt charts, task dependencies, team collaboration, and progress tracking",
+        "technologies": ["Angular", "ASP.NET Core", "SQL Server", "Chart.js"],
+        "image": "https://via.placeholder.com/400x250/8b5cf6/ffffff?text=Project+Management",
+        "githubUrl": "https://github.com/username/project-management-tool",
+        "liveUrl": "https://project-mgmt-demo.com",
+        "category": "Web Development"
+    },
+    {
+        "id": 9,
+        "title": "wordpress blog with custom theme",
+        "description": "Custom WordPress blog featuring responsive design, SEO optimization, and content management capabilities",
+        "technologies": ["WordPress", "PHP", "MySQL", "JavaScript", "SCSS"],
+        "image": "https://via.placeholder.com/400x250/06b6d4/ffffff?text=WordPress+Blog",
+        "githubUrl": "https://github.com/username/wordpress-custom-theme",
+        "liveUrl": "https://blog-demo.com",
+        "category": "Web Development"
+    },
+    {
+        "id": 10,
+        "title": "python data analysis scripts",
+        "description": "Collection of Python scripts for data analysis, visualization, and machine learning with automated reporting features",
+        "technologies": ["Python", "Pandas", "NumPy", "Matplotlib", "Jupyter"],
+        "image": "https://via.placeholder.com/400x250/f59e0b/ffffff?text=Data+Analysis",
+        "githubUrl": "https://github.com/username/python-data-analysis",
+        "liveUrl": "https://data-analysis-demo.com",
+        "category": "Data Science"
+    },
+    {
+        "id": 11,
+        "title": "c#.net framework desktop app",
+        "description": "Desktop application built with C# .NET Framework featuring database integration, user management, and reporting tools",
+        "technologies": ["C#", ".NET Framework", "WPF", "SQL Server", "Entity Framework"],
+        "image": "https://via.placeholder.com/400x250/10b981/ffffff?text=Desktop+App",
+        "githubUrl": "https://github.com/username/csharp-desktop-app",
+        "liveUrl": "https://desktop-app-demo.com",
+        "category": "Desktop Development"
+    },
+    {
+        "id": 12,
+        "title": "file sharing application with encryption",
+        "description": "Secure file sharing platform with end-to-end encryption, user authentication, and cloud storage integration",
+        "technologies": ["Node.js", "React", "MongoDB", "Crypto", "AWS S3"],
+        "image": "https://via.placeholder.com/400x250/ef4444/ffffff?text=File+Sharing",
+        "githubUrl": "https://github.com/username/secure-file-sharing",
+        "liveUrl": "https://file-share-demo.com",
+        "category": "Web Development"
     }
 ]
