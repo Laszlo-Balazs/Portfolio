@@ -191,12 +191,12 @@
                     </div>
                     <button type="submit" class="btn btn-primary">Send</button>
                 </form> -->
-                <form action="https://api.web3forms.com/submit" method="POST">
+                <form class="contact-form" id="contactForm" action="https://api.web3forms.com/submit" method="POST">
                     <input type="hidden" name="access_key" value="f7c96011-d84a-4f1c-bd0e-ff7231159900">
-                    <input type="text" name="name" required>
-                    <input type="email" name="email" required>
-                    <textarea name="message" required></textarea>
-                    <button type="submit">Submit Form</button>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send</button>
                 </form>
             </div>
         </div>
