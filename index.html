@@ -1,107 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Software Developer Portfolio - Showcasing my projects and skills">
-    <title>Portfolio | Software Developer</title>
+    <meta name="description" content="Showcasing my projects and skills">
+    <title>Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
 </head>
+
 <body>
     <!-- Navigation -->
-    <nav class="navbar">
-        <div class="container">
-            <div class="nav-brand">
-                <a href="#home">Developer</a>
+    <nav class="navbar navbar-expand-lg navbar-dark py-3 px-4 fixed-top justify-content-center">
+        <div class="rounded-pill d-flex align-items-center px-3 py-2 bg-dark nav-container">
+
+            <!-- Logo -->
+            <div class="nav-logo d-flex justify-content-center align-items-center me-4">
+                <span class="logo-text">&lt;/&gt;</span>
             </div>
-            <div class="nav-toggle" id="navToggle">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <ul class="nav-menu" id="navMenu">
-                <li><a href="#home" class="nav-link">Home</a></li>
-                <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#skills" class="nav-link">Skills</a></li>
-                <li><a href="#projects" class="nav-link">Projects</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
+
+            <!-- Icon Navigation -->
+            <ul class="navbar-nav d-flex flex-row gap-4 mb-0">
+                <li class="nav-item">
+                    <a class="nav-link text-secondary px-0 active" href="#">
+                        <i class="fas fa-house"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-secondary px-0" href="#">
+                        <i class="fas fa-user"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-secondary px-0" href="#">
+                        <i class="fas fa-briefcase"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-secondary px-0" href="#">
+                        <i class="fas fa-file-alt"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-secondary px-0" href="#">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </li>
             </ul>
+
+            <!-- Hire Me Button -->
+            <button class="btn btn-outline-light ms-4 hire-btn">Hire Me</button>
+
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section id="home" class="hero">
+    <section id="home" class="hero min-vh-100 d-flex align-items-center">
         <div class="hero-background">
-            <div class="particles" id="particles"></div>
-            <div class="gradient-orb orb-1"></div>
-            <div class="gradient-orb orb-2"></div>
-            <div class="gradient-orb orb-3"></div>
         </div>
         <div class="container">
-            <div class="hero-content">
-                <div class="hero-badge">
-                    <span class="badge-dot"></span>
-                    Available for work
-                </div>
-                <h1 class="hero-title">
-                    <span class="highlight">
-                        Hi
-                        <span class="wave-emoji">👋</span>
-                    </span>
-                    
-                </h1>
-                <div class="hero-subtitle-wrapper">
-                    <p class="hero-subtitle">
-                        <span class="typing-text"></span>
-                        <span class="cursor">|</span>
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center hero-content">
+                    <div class="hero-badge mb-4">
+                        <span class="badge-dot"></span>
+                        Available for work
+                    </div>
+                    <p class="hero-description lead mb-5">
+                        I'm a passionate & competent software engineer specializing in building professional software
+                        solutions.
                     </p>
-                </div>
-                <p class="hero-description">
-                    I'm a passionate & competent software engineer specializing in building professional software solutions.
-                </p>
-                <div class="hero-stats">
-                    <div class="stat-item">
-                        <strong>2+</strong>
-                        <span>Years Experience</span>
+
+                    <!-- Stats -->
+                    <div class="row justify-content-center mb-5">
+                        <div class="col-6 col-md-3">
+                            <div class="stat-item">
+                                <strong class="display-4">2+</strong>
+                                <span class="d-block">Years Experience</span>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="stat-item">
+                                <strong class="display-4">10+</strong>
+                                <span class="d-block">Projects</span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="stat-item">
-                        <strong>10+</strong>
-                        <span>Projects</span>
+
+                    <!-- Buttons -->
+                    <div class="d-flex flex-wrap gap-3 justify-content-center mb-5">
+                        <a href="#projects" class="btn btn-primary btn-lg">
+                            <span>View My Work</span>
+                            <i class="fas fa-arrow-right ms-2"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary btn-lg">
+                            <span>Hire me</span>
+                            <i class="fas fa-paper-plane ms-2"></i>
+                        </a>
+                        <a href="assets/cv/Your_CV.pdf" class="btn btn-outline-light btn-lg" download>
+                            <i class="fas fa-download me-2"></i>
+                            <span>Download CV</span>
+                        </a>
                     </div>
-                </div>
-                <div class="hero-buttons">
-                    <a href="#projects" class="btn btn-primary">
-                        <span>View My Work</span>
-                        <i class="fas fa-arrow-right"></i>
-                    </a>
-                    <a href="#contact" class="btn btn-secondary">
-                        <span>Let's Talk</span>
-                        <i class="fas fa-paper-plane"></i>
-                    </a>
-                    <a href="#" class="btn btn-outline" download>
-                        <i class="fas fa-download"></i>
-                        <span>Download CV</span>
-                    </a>
-                </div>
-                <div class="social-links">
-                    <a href="https://github.com/yourusername" target="_blank" title="GitHub">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="https://linkedin.com/in/yourusername" target="_blank" title="LinkedIn">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="https://twitter.com/yourusername" target="_blank" title="Twitter">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="https://codepen.io/yourusername" target="_blank" title="CodePen">
-                        <i class="fab fa-codepen"></i>
-                    </a>
-                </div>
-                <div class="scroll-indicator">
-                    <span>Scroll Down</span>
-                    <div class="mouse">
-                        <div class="wheel"></div>
+
+                    <!-- Social Links -->
+                    <div class="social-links d-flex gap-3 justify-content-center mb-5">
+                        <a href="https://github.com/yourusername" target="_blank" title="GitHub"
+                            class="btn btn-outline-light rounded-circle" style="width: 50px; height: 50px;">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/yourusername" target="_blank" title="LinkedIn"
+                            class="btn btn-outline-light rounded-circle" style="width: 50px; height: 50px;">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://twitter.com/yourusername" target="_blank" title="Twitter"
+                            class="btn btn-outline-light rounded-circle" style="width: 50px; height: 50px;">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://codepen.io/yourusername" target="_blank" title="CodePen"
+                            class="btn btn-outline-light rounded-circle" style="width: 50px; height: 50px;">
+                            <i class="fab fa-codepen"></i>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -109,112 +129,165 @@
     </section>
 
     <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <div class="container">
-            <h2 class="section-title">Skills & Technologies</h2>
-            <div class="skills-grid">
-                <div class="skill-card">
-                    <i class="fab fa-html5"></i>
-                    <h3>Frontend</h3>
-                    <p>HTML5, CSS3, JavaScript, React, Vue.js, <!-- TypeScript --></p>
+    <section id="skills" class="skills py-5">
+        <div class="container py-5">
+            <h2 class="section-title text-center display-4 fw-bold mb-5">Skills & Technologies</h2>
+            <div class="row g-4">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="skill-card card h-100 border-0 shadow-sm text-center p-4">
+                        <div class="card-body">
+                            <i class="fab fa-html5 display-3 text-primary mb-3"></i>
+                            <h3 class="card-title h4 mb-3">Frontend</h3>
+                            <p class="card-text text-muted">HTML5, CSS3, JavaScript, React, Vue.js</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="skill-card">
-                    <i class="fab fa-node"></i>
-                    <h3>Backend</h3>
-                    <p> <!-- Node.js, Express, Django,-->Python,  PHP, Laravel </p>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="skill-card card h-100 border-0 shadow-sm text-center p-4">
+                        <div class="card-body">
+                            <i class="fab fa-node display-3 text-primary mb-3"></i>
+                            <h3 class="card-title h4 mb-3">Backend</h3>
+                            <p class="card-text text-muted">Python, PHP, Laravel</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="skill-card">
-                    <i class="fas fa-database"></i>
-                    <h3>Database</h3>
-                    <p>MySQL, <!-- PostgreSQL, MongoDB, Redis --></p>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="skill-card card h-100 border-0 shadow-sm text-center p-4">
+                        <div class="card-body">
+                            <i class="fas fa-database display-3 text-primary mb-3"></i>
+                            <h3 class="card-title h4 mb-3">Database</h3>
+                            <p class="card-text text-muted">MySQL</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="skill-card">
-                    <i class="fab fa-git-alt"></i>
-                    <h3>Tools & DevOps</h3>
-                    <p>Git, <!-- Docker, AWS, CI/CD, Linux --></p>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="skill-card card h-100 border-0 shadow-sm text-center p-4">
+                        <div class="card-body">
+                            <i class="fab fa-git-alt display-3 text-primary mb-3"></i>
+                            <h3 class="card-title h4 mb-3">Tools & DevOps</h3>
+                            <p class="card-text text-muted">Git</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="skill-card">
-                    <i class="fas fa-mobile-alt"></i>
-                    <h3>Mobile</h3>
-                    <p><!-- React Native, Flutter, -->Progressive Web Apps </p>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="skill-card card h-100 border-0 shadow-sm text-center p-4">
+                        <div class="card-body">
+                            <i class="fas fa-mobile-alt display-3 text-primary mb-3"></i>
+                            <h3 class="card-title h4 mb-3">Mobile</h3>
+                            <p class="card-text text-muted">Progressive Web Apps</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="skill-card">
-                    <i class="fas fa-chart-line"></i>
-                    <h3>Other Skills</h3>
-                    <p>RESTful APIs, UI/UX Design<!-- GraphQL, Agile/Scrum,  --></p>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="skill-card card h-100 border-0 shadow-sm text-center p-4">
+                        <div class="card-body">
+                            <i class="fas fa-chart-line display-3 text-primary mb-3"></i>
+                            <h3 class="card-title h4 mb-3">Other Skills</h3>
+                            <p class="card-text text-muted">RESTful APIs, UI/UX Design</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <h2 class="section-title">Featured Projects</h2>
-            <div class="projects-grid" id="projects-grid">
-                <!-- Projects via JavaScript -->
+    <section id="projects" class="projects py-5 bg-dark text-white">
+        <div class="container py-5">
+            <h2 class="section-title text-center display-4 fw-bold mb-1">Featured Projects</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" id="projects-grid">
+                <!-- Projects will be loaded dynamically -->
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3>Let's Work Together</h3>
-                    <p>I'm always open to discussing new projects.</p>
-                    <div class="contact-details">
-                        <div class="contact-item">
-                            <i class="fas fa-envelope"></i>
-                            <div>
-                                <h4>Email</h4>
-                                <p>your.email@example.com</p>
+    <section id="contact" class="contact py-5">
+        <div class="container py-5">
+            <h2 class="section-title text-center display-4 fw-bold mb-5">Get In Touch</h2>
+            <div class="row g-5">
+                <div class="col-lg-5">
+                    <div class="contact-info">
+                        <h3 class="h2 mb-4">Let's Work Together</h3>
+                        <p class="lead text-muted mb-4">I'm always open to discussing new projects.</p>
+                        <div class="contact-details">
+                            <div class="d-flex gap-3 mb-4">
+                                <i class="fas fa-envelope fs-3 text-primary"></i>
+                                <div>
+                                    <h4 class="h5 mb-1">Email</h4>
+                                    <p class="text-muted mb-0">your.email@example.com</p>
+                                </div>
+                            </div>
+                            <div class="d-flex gap-3 mb-4">
+                                <i class="fas fa-map-marker-alt fs-3 text-primary"></i>
+                                <div>
+                                    <h4 class="h5 mb-1">Location</h4>
+                                    <p class="text-muted mb-0">Your City, Country</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- <form class="contact-form" id="contactForm" action="https://api.web3forms.com/submit" method="POST">
-                    <input type="hidden" name="access_key" value="f7c96011-d84a-4f1c-bd0e-ff7231159900">
-                    <div class="form-group">
-                        <input type="text" id="name" name="name" placeholder="Your Name" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" id="email" name="email" placeholder="Your Email" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
-                    </div>
-                    <div class="form-group">
-                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Send</button>
-                </form> -->
-                <form action="https://api.web3forms.com/submit" method="POST">
-                    <input type="hidden" name="access_key" value="f7c96011-d84a-4f1c-bd0e-ff7231159900">
-                    <input type="text" name="name" required>
-                    <input type="email" name="email" required>
-                    <textarea name="message" required></textarea>
-                    <button type="submit">Submit Form</button>
-                </form>
+                <div class="col-lg-7">
+                    <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+                        <input type="hidden" name="access_key" value="f7c96011-d84a-4f1c-bd0e-ff7231159900">
+
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control form-control-lg" id="name" name="name"
+                                placeholder="Your Name" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control form-control-lg" id="email" name="email"
+                                placeholder="your.email@example.com" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" class="form-control form-control-lg" id="subject" name="subject"
+                                placeholder="How can I help you?" required>
+                        </div>
+
+                        <div class="mb-4">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control form-control-lg" id="message" name="message" rows="5"
+                                placeholder="Tell me about your project..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-lg w-100">
+                            <i class="fas fa-paper-plane me-2"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer class="footer bg-dark text-white py-4">
         <div class="container">
-            <p>&copy; 2025 Your Name. All rights reserved.</p>
-            <div class="footer-links">
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <p class="mb-0">&copy; 2025 Your Name. All rights reserved.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="footer-links d-flex gap-4 justify-content-center justify-content-md-end">
+                        <a href="#home" class="text-white text-decoration-none">Home</a>
+                        <a href="#skills" class="text-white text-decoration-none">Skills</a>
+                        <a href="#projects" class="text-white text-decoration-none">Projects</a>
+                        <a href="#contact" class="text-white text-decoration-none">Contact</a>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/projects.js"></script>
     <script src="js/main.js"></script>
 </body>
+
 </html>

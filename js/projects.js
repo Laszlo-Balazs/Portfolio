@@ -24,29 +24,33 @@ fetch('projects.json')
         }
 
         validProjects.forEach(project => {
-            const projectElement = document.createElement('div');
-            projectElement.classList.add("project-card");
-            projectElement.innerHTML = `
-                <div class="project-image">
-                    <img src="${project.image}" alt="${project.title}">
-                    <div class="project-overlay">
-                        <a href="${project.liveUrl}" class="project-link" target="_blank" rel="noopener noreferrer">
-                            <i class="fas fa-external-link-alt"></i>
-                        </a>
-                        <a href="${project.githubUrl}" class="project-link" target="_blank" rel="noopener noreferrer">
-                            <i class="fab fa-github"></i>
-                        </a>
+            const projectCol = document.createElement('div');
+            projectCol.className = 'col';
+            
+            projectCol.innerHTML = `
+                <div class="project-card h-100">
+                    <div class="project-image">
+                        <img src="${project.image}" alt="${project.title}">
+                        <div class="project-overlay d-flex align-items-center justify-content-center gap-3">
+                            <a href="${project.liveUrl}" class="project-link rounded-circle d-flex align-items-center justify-content-center" target="_blank" rel="noopener noreferrer">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="${project.githubUrl}" class="project-link rounded-circle d-flex align-items-center justify-content-center" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>${project.title}</h3>
+                        <p>${project.description}</p>
+                        <div class="project-tags d-flex gap-2 flex-wrap">
+                            ${project.technologies.filter(tech => tech).map(tech => `<span>${tech}</span>`).join('')}
+                        </div>
                     </div>
                 </div>
-                <div class="project-content">
-                    <h3>${project.title}</h3>
-                    <p>${project.description}</p>
-                    <div class="project-tags">
-                        ${project.technologies.filter(tech => tech).map(tech => `<span>${tech}</span>`).join('')}
-                    </div>
-                </div>`;
+            `;
 
-            projectsgrid.appendChild(projectElement);
+            projectsgrid.appendChild(projectCol);
         });
 
         console.log(`Successfully loaded ${validProjects.length} projects`);
